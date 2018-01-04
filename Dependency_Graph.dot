@@ -1,0 +1,584 @@
+digraph G {
+    adsprpcd -> libadsprpc
+    adsprpcd -> libc
+    adsprpcd -> liblog
+    adsprpcd -> libm
+    adsprpcd -> libstdc__
+
+    btnvtool -> libbtnv
+    btnvtool -> libc
+    btnvtool -> libm
+    btnvtool -> libstdc__
+    
+    charger_monitor -> libc
+    charger_monitor -> libcutils
+    charger_monitor -> libstdc__
+    charger_monitor -> libm
+
+    fm_qsoc_patches -> libqmi
+    fm_qsoc_patches -> libqcci_legacy
+    fm_qsoc_patches -> libqmiservices
+    fm_qsoc_patches -> libcutils
+    fm_qsoc_patches -> libc
+    fm_qsoc_patches -> libstdc__
+    fm_qsoc_patches -> libm
+
+    gsiff_daemon -> libutils
+    gsiff_daemon -> liblog
+    gsiff_daemon -> libloc_api_v02
+    gsiff_daemon -> libgps_utils
+    gsiff_daemon -> libandroid
+    gsiff_daemon -> libhardware
+    gsiff_daemon -> libsensor1
+    gsiff_daemon -> libc
+    gsiff_daemon -> libstdc__
+    gsiff_daemon -> libm
+
+    camera_vendor_msm8974 -> libcamera_client
+    camera_vendor_msm8974 -> liblog
+    camera_vendor_msm8974 -> libhardware
+    camera_vendor_msm8974 -> libutils
+    camera_vendor_msm8974 -> libcutils
+    camera_vendor_msm8974 -> libdl
+    camera_vendor_msm8974 -> libgui
+    camera_vendor_msm8974 -> libmmcamera_interface
+    camera_vendor_msm8974 -> libmmjpeg_interface
+    camera_vendor_msm8974 -> libFaceProc
+    camera_vendor_msm8974 -> libFaceDeform
+    camera_vendor_msm8974 -> libarcsoft_beauty_shot
+    camera_vendor_msm8974 -> libfastcvopt
+    camera_vendor_msm8974 -> libscve
+    camera_vendor_msm8974 -> libscve_stub
+    camera_vendor_msm8974 -> libt2tmanager
+    camera_vendor_msm8974 -> libc
+    camera_vendor_msm8974 -> libstdc__
+    camera_vendor_msm8974 -> libm
+
+    eglsubAndroid -> libEGL_adreno
+    eglsubAndroid -> libc
+    eglsubAndroid -> libcutils
+    eglsubAndroid -> libdl
+    eglsubAndroid -> libgsl
+    eglsubAndroid -> libhardware
+    eglsubAndroid -> libm
+    eglsubAndroid -> libstdc__
+    eglsubAndroid -> libsync
+    eglsubAndroid -> libui
+
+    libEGL_adreno -> libadreno_utils
+    libEGL_adreno -> libc
+    libEGL_adreno -> libcrypto
+    libEGL_adreno -> libcutils
+    libEGL_adreno -> libdl
+    libEGL_adreno -> libgsl
+    libEGL_adreno -> libhardware
+    libEGL_adreno -> libm
+    libEGL_adreno -> libstdc__
+
+    libGLESv1_CM_adreno -> libc
+    libGLESv1_CM_adreno -> libcrypto
+    libGLESv1_CM_adreno -> libcutils
+    libGLESv1_CM_adreno -> libdl
+    libGLESv1_CM_adreno -> libgsl
+    libGLESv1_CM_adreno -> libm
+    libGLESv1_CM_adreno -> libstdc__
+
+    libGLESv2_adreno -> libadreno_utils
+    libGLESv2_adreno -> libc
+    libGLESv2_adreno -> libcrypto
+    libGLESv2_adreno -> libcutils
+    libGLESv2_adreno -> libdl
+    libGLESv2_adreno -> libgsl
+    libGLESv2_adreno -> libm
+    libGLESv2_adreno -> libstdc__
+    libGLESv2_adreno -> libstlport
+
+    libq3dtools_adreno -> libc
+    libq3dtools_adreno -> libcutils
+    libq3dtools_adreno -> libdl
+    libq3dtools_adreno -> libgsl
+    libq3dtools_adreno -> libstdc__
+    libq3dtools_adreno -> libstlport
+
+    libdrmwvmplugin -> libbinder
+    libdrmwvmplugin -> libutils
+    libdrmwvmplugin -> libcutils
+    libdrmwvmplugin -> liblog
+    libdrmwvmplugin -> libstlport
+    libdrmwvmplugin -> libz
+    libdrmwvmplugin -> libwvdrm_L3
+    libdrmwvmplugin -> libWVStreamControlAPI_L3
+    libdrmwvmplugin -> libdl
+    libdrmwvmplugin -> libc
+    libdrmwvmplugin -> libstdc__
+    libdrmwvmplugin -> libm
+
+    libxml -> libc
+    libxml -> libcutils
+    libxml -> libdiag
+    libxml -> libm
+    libxml -> libstdc__
+
+    libWVStreamControlAPI_L3 -> libcrypto
+    libWVStreamControlAPI_L3 -> libssl
+    libWVStreamControlAPI_L3 -> libutils
+    libWVStreamControlAPI_L3 -> libcutils
+    libWVStreamControlAPI_L3 -> liblog
+    libWVStreamControlAPI_L3 -> libc
+    libWVStreamControlAPI_L3 -> libm
+    libWVStreamControlAPI_L3 -> libz
+    libWVStreamControlAPI_L3 -> libstlport
+    libWVStreamControlAPI_L3 -> libstdc__
+    libWVStreamControlAPI_L3 -> libnetutils
+
+    libwvm -> libstlport
+    libwvm -> libstagefright
+    libwvm -> libWVStreamControlAPI_L3
+    libwvm -> libdrmframework
+    libwvm -> libcutils
+    libwvm -> liblog
+    libwvm -> libutils
+    libwvm -> libz
+    libwvm -> libc
+    libwvm -> libstdc__
+    libwvm -> libm
+    
+    libwvdrm_L3 -> libssl
+    libwvdrm_L3 -> libcrypto
+    libwvdrm_L3 -> libWVStreamControlAPI_L3
+    libwvdrm_L3 -> libstlport
+    libwvdrm_L3 -> libutils
+    libwvdrm_L3 -> libcutils
+    libwvdrm_L3 -> libc
+    libwvdrm_L3 -> libm
+    libwvdrm_L3 -> libz
+    libwvdrm_L3 -> libstdc__
+
+    libulp2 -> libutils
+    libulp2 -> libgps_utils
+    libulp2 -> libdl
+    libulp2 -> libloc_core
+    libulp2 -> libizat_core
+    libulp2 -> liblog
+    libulp2 -> liblbs_core
+    libulp2 -> libquipc_os_api
+    libulp2 -> libc
+    libulp2 -> libstdc__
+    libulp2 -> libm
+
+    libubifocus -> liblog
+    libubifocus -> libdl
+    libubifocus -> libz
+    libubifocus -> libm
+    libubifocus -> libstdc__
+    libubifocus -> libc
+
+    libTimeService -> libtime_genoff
+    libTimeService -> libutils
+    libTimeService -> liblog
+    libTimeService -> libc
+    libTimeService -> libstdc__
+    libTimeService -> libm
+
+    libtime_genoff -> libc
+    libtime_genoff -> libcutils
+    libtime_genoff -> libstdc__
+    libtime_genoff -> libm
+
+    libthermalioctl -> libc
+    libthermalioctl -> libcutils
+    libthermalioctl -> libm
+    libthermalioctl -> libstdc__
+
+    libthermalclient -> libc
+    libthermalclient -> libcutils
+    libthermalclient -> libdiag
+    libthermalclient -> libm
+    libthermalclient -> libstdc__
+
+    libt2tmanager -> liblog
+    libt2tmanager -> libfastcvopt
+    libt2tmanager -> libscve
+    libt2tmanager -> libscve_stub
+    libt2tmanager -> libc
+    libt2tmanager -> libstdc__
+    libt2tmanager -> libm
+
+    libssd -> libutils
+    libssd -> libcutils
+    libssd -> libdiag
+    libssd -> liblog
+    libssd -> libQSEEComAPI
+    libssd -> libc
+    libssd -> libstdc__
+    libssd -> libm
+
+    libsrsprocessing -> libc
+    libsrsprocessing -> libcutils
+    libsrsprocessing -> libdl
+    libsrsprocessing -> libm
+    libsrsprocessing -> libmedia
+    libsrsprocessing -> libstdc__
+    libsrsprocessing -> libtinyalsa
+    libsrsprocessing -> libutils
+
+    libSHIMDivxDrm -> libDivxDrm
+    libSHIMDivxDrm -> libc
+    libSHIMDivxDrm -> liblog
+    libSHIMDivxDrm -> libm
+    libSHIMDivxDrm -> libstdc__
+    libSHIMDivxDrm -> libutils
+
+    libsensor1 -> libqmi_encdec
+    libsensor1 -> liblog
+    libsensor1 -> libc
+    libsensor1 -> libstdc
+    libsensor1 -> libm
+
+    libsensor_user_cal -> libutils
+    libsensor_user_cal -> libcutils
+    libsensor_user_cal -> liblog
+    libsensor_user_cal -> libsensor1
+    libsensor_user_cal -> libsensor_reg
+    libsensor_user_cal -> libsensor_test
+    libsensor_user_cal -> libAKM8963
+    libsensor_user_cal -> libc
+    libsensor_user_cal -> libstdc__
+    libsensor_user_cal -> libm
+
+    libsensor_test -> libutils
+    libsensor_test -> libcutils
+    libsensor_test -> liblog
+    libsensor_test -> libsensor1
+    libsensor_test -> libsensor_reg
+    libsensor_test -> libc
+    libsensor_test -> libstdc__
+    libsensor_test -> libm
+
+    libsensor_reg -> libutils
+    libsensor_reg -> libcutils
+    libsensor_reg -> liblog
+    libsensor_reg -> libsensor1
+    libsensor_reg -> libc
+    libsensor_reg -> libstdc__
+    libsensor_reg -> libm
+
+    libscve_stub -> libadsprpc
+    libscve_stub -> libc
+    libscve_stub -> libfastcvopt
+    libscve_stub -> liblog
+    libscve_stub -> libm
+    libscve_stub -> libstdc__
+
+    libscve -> libOpenCL
+    libscve -> libadsprpc
+    libscve -> libc
+    libscve -> libdl
+    libscve -> libfastcvopt
+    libscve -> liblog
+    libscve -> libm
+    libscve -> libscve_stub
+    libscve -> libstdc__
+
+    libscale -> libc
+    libscale -> libcutils
+    libscale -> libdl
+    libscale -> liblog
+    libscale -> libm
+    libscale -> libstdc__
+    libscale -> libutils
+
+    libsc_a3xx -> libc
+    libsc_a3xx -> libcutils
+    libsc_a3xx -> libdl
+    libsc_a3xx -> libgsl
+    libsc_a3xx -> libm
+    libsc_a3xx -> libstdc__
+    libsc_a3xx -> libstlport
+
+    libsc_a2xx -> libgsl
+    libsc_a2xx -> libdl
+    libsc_a2xx -> libstlport
+    libsc_a2xx -> libc
+    libsc_a2xx -> libstdc__
+    libsc_a2xx -> libm
+
+    lib_rtpsl -> libcutils
+    lib_rtpsl -> libutils
+    lib_rtpsl -> liblog
+    lib_rtpsl -> lib_imsdpl
+    lib_rtpsl -> lib_rtpcore
+    lib_rtpsl -> lib_rtpcommon
+    lib_rtpsl -> libdiag
+    lib_rtpsl -> lib_rtpdaemoninterface
+    lib_rtpsl -> libc
+    lib_rtpsl -> libstdc__
+    lib_rtpsl -> libm
+
+    lib_rtpdaemoninterface -> libcutils
+    lib_rtpdaemoninterface -> lib_imsdpl
+    lib_rtpdaemoninterface -> lib_rtpcommon
+    lib_rtpdaemoninterface -> libc
+    lib_rtpdaemoninterface -> libstdc__
+    lib_rtpdaemoninterface -> libm
+
+    lib_rtpcore -> libdiag
+    lib_rtpcore -> libcutils
+    lib_rtpcore -> libutils
+    lib_rtpcore -> liblog
+    lib_rtpcore -> lib_imsdpl
+    lib_rtpcore -> lib_rtpcommon
+    lib_rtpcore -> lib_dplmedia
+    lib_rtpcore -> libc
+    lib_rtpcore -> libstdc__
+    lib_rtpcore -> libm
+
+    lib_rtpcommon -> libdiag
+    lib_rtpcommon -> libcutils
+    lib_rtpcommon -> libutils
+    lib_rtpcommon -> liblog
+    lib_rtpcommon -> lib_imsdpl
+    lib_rtpcommon -> libc
+    lib_rtpcommon -> libstdc__
+    lib_rtpcommon -> libm
+
+    libRSDriver_adreno -> libEGL
+    libRSDriver_adreno -> libGLESv1_CM
+    libRSDriver_adreno -> libGLESv2
+    libRSDriver_adreno -> libLLVM
+    libRSDriver_adreno -> libRS
+    libRSDriver_adreno -> libRSCpuRef
+    libRSDriver_adreno -> libbcc
+    libRSDriver_adreno -> libbcinfo
+    libRSDriver_adreno -> libc
+    libRSDriver_adreno -> libc__
+    libRSDriver_adreno -> libcutils
+    libRSDriver_adreno -> libgui
+    libRSDriver_adreno -> liblog
+    libRSDriver_adreno -> libm
+    libRSDriver_adreno -> librs_adreno
+    libRSDriver_adreno -> libsync
+    libRSDriver_adreno -> libui
+    libRSDriver_adreno -> libutils
+    libRSDriver_adreno -> libdl
+
+    librs_adreno_sha1 -> libc
+    librs_adreno_sha1 -> libm
+    librs_adreno_sha1 -> libstdc__
+
+    librs_adreno -> libCB
+    librs_adreno -> libc
+    librs_adreno -> libcutils
+    librs_adreno -> libdl
+    librs_adreno -> libgsl
+    librs_adreno -> libm
+    librs_adreno -> libstdc__
+
+    librpmb -> libutils
+    librpmb -> libQSEEComAPI
+    librpmb -> liblog
+    librpmb -> libc
+    librpmb -> libstdc__
+    librpmb -> libm
+
+    libril_qcril_hook_oem -> libcutils
+    libril_qcril_hook_oem -> libutils
+    libril_qcril_hook_oem -> libril
+    libril_qcril_hook_oem -> libdiag
+    libril_qcril_hook_oem -> libc
+    libril_qcril_hook_oem -> libstdc__
+    libril_qcril_hook_oem -> libm
+
+    libril_qc_qmi_1 -> libdsutils
+    libril_qc_qmi_1 -> libcutils
+    libril_qc_qmi_1 -> libutils
+    libril_qc_qmi_1 -> libril
+    libril_qc_qmi_1 -> librilutils
+    libril_qc_qmi_1 -> libril_qcril_hook_oem
+    libril_qc_qmi_1 -> libqmi
+    libril_qc_qmi_1 -> libqcci_legacy
+    libril_qc_qmi_1 -> libdiag
+    libril_qc_qmi_1 -> libhardware_legacy
+    libril_qc_qmi_1 -> libqmiservices
+    libril_qc_qmi_1 -> libidl
+    libril_qc_qmi_1 -> libtime_genoff
+    libril_qc_qmi_1 -> libmedia
+    libril_qc_qmi_1 -> libbinder
+    libril_qc_qmi_1 -> libsqlite
+    libril_qc_qmi_1 -> libdsi_netctrl
+    libril_qc_qmi_1 -> libqdp
+    libril_qc_qmi_1 -> libc
+    libril_qc_qmi_1 -> libstdc__
+    libril_qc_qmi_1 -> libm
+    libril_qc_qmi_1 -> libdl
+
+    libquipc_ulp_adapter -> libcutils
+    libquipc_ulp_adapter -> libutils
+    libquipc_ulp_adapter -> libquipc_os_api
+    libquipc_ulp_adapter -> libc
+    libquipc_ulp_adapter -> libstdc__
+    libquipc_ulp_adapter -> libm
+
+    libquipc_os_api -> libcutils
+    libquipc_os_api -> libdiag
+    libquipc_os_api -> libc
+    libquipc_os_api -> libstdc__
+    libquipc_os_api -> libm
+
+    libqti_perfd_client -> libc
+    libqti_perfd_client -> libcutils
+    libqti_perfd_client -> libm
+    libqti_perfd_client -> libstdc__
+
+    libQSEEComAPI -> libc
+    libQSEEComAPI -> libcutils
+    libQSEEComAPI -> libutils
+    libQSEEComAPI -> libstdc__
+    libQSEEComAPI -> libm
+
+    libqomx_jpegenc -> libcutils
+    libqomx_jpegenc -> libdl
+    libqomx_jpegenc -> libmmqjpeg_codec
+    libqomx_jpegenc -> libmmjpeg
+    libqomx_jpegenc -> libc
+    libqomx_jpegenc -> libstdc__
+    libqomx_jpegenc -> libm
+
+    libqomx_jpegdec -> libcutils
+    libqomx_jpegdec -> libdl
+    libqomx_jpegdec -> libmmqjpeg_codec
+    libqomx_jpegdec -> libmmjpeg
+    libqomx_jpegdec -> libc
+    libqomx_jpegdec -> libstdc__
+    libqomx_jpegdec -> libm
+
+    libqmiservices -> libidl
+    libqmiservices -> libc
+    libqmiservices -> libstdc
+    libqmiservices -> libm
+
+    libqmi_encdec -> libcutils
+    libqmi_encdec -> libutils
+    libqmi_encdec -> libc
+    libqmi_encdec -> libstdc__
+    libqmi_encdec -> libm
+
+    libqmi_csvt_srvc -> libcutils
+    libqmi_csvt_srvc -> libdiag
+    libqmi_csvt_srvc -> libqmi
+    libqmi_csvt_srvc -> libqmiservices
+    libqmi_csvt_srvc -> libqcci_legacy
+    libqmi_csvt_srvc -> libqmi_client_qmux
+    libqmi_csvt_srvc -> liblog
+    libqmi_csvt_srvc -> libc
+    libqmi_csvt_srvc -> libstdc__
+    libqmi_csvt_srvc -> libm
+
+    libqmi_csi -> libcutils
+    libqmi_csi -> libutils
+    libqmi_csi -> libqmi_encdec
+    libqmi_csi -> liblog
+    libqmi_csi -> libc
+    libqmi_csi -> libstdc__
+    libqmi_csi -> libm
+
+    libqmi_common_so -> libcutils
+    libqmi_common_so -> libutils
+    libqmi_common_so -> libc
+    libqmi_common_so -> libstdc__
+    libqmi_common_so -> libm
+
+    libqmi_client_qmux -> libcutils
+    libqmi_client_qmux -> libdiag
+    libqmi_client_qmux -> libdsutils
+    libqmi_client_qmux -> libqmiservices
+    libqmi_client_qmux -> libidl
+    libqmi_client_qmux -> liblog
+    libqmi_client_qmux -> libc
+    libqmi_client_qmux -> libstdc
+    libqmi_client_qmux -> libm
+
+    libqmi_cci -> libcutils
+    libqmi_cci -> libutils
+    libqmi_cci -> libqmi_encdec
+    libqmi_cci -> libqmi_client_qmux
+    libqmi_cci -> liblog
+    libqmi_cci -> libc
+    libqmi_cci -> libstdc__
+    libqmi_cci -> libm
+
+    libqmi -> libcutils
+    libqmi -> libqmi_client_qmux
+    libqmi -> libdiag
+    libqmi -> libdsutils
+    libqmi -> libqmiservices
+    libqmi -> libidl
+    libqmi -> liblog
+    libqmi -> libc
+    libqmi -> libstdc__
+    libqmi -> libm
+
+    libqdp -> libqmi
+    libqdp -> libdiag
+    libqdp -> libdsutils
+    libqdp -> libc
+    libqdp -> libstdc__
+    libqdp -> libm
+
+    libqdi -> libqmi
+    libqdi -> libdiag
+    libqdi -> libdsutils
+    libqdi -> libc
+    libqdi -> libstdc__
+    libqdi -> libm
+
+    libqct_resampler -> libcutils
+    libqct_resampler -> libc
+    libqct_resampler -> libstdc__
+    libqct_resampler -> libm
+
+    libqc_opt -> libcutils
+    libqc_opt -> libskia
+    libqc_opt -> libicuuc
+    libqc_opt -> libicui18n
+    libqc_opt -> libdl
+    libqc_opt -> libc
+    libqc_opt -> libstdc
+    libqc_opt -> libm
+
+    libqcci_legacy -> libcutils
+    libqcci_legacy -> libdiag
+    libqcci_legacy -> libidl
+    libqcci_legacy -> libqmi_client_qmux
+    libqcci_legacy -> libqmi
+    libqcci_legacy -> liblog
+    libqcci_legacy -> libc
+    libqcci_legacy -> libstdc__
+    libqcci_legacy -> libm
+
+    liboptizoom -> liblog
+    liboptizoom -> libdl
+    liboptizoom -> libz
+    liboptizoom -> libm
+    liboptizoom -> libstdc__
+    liboptizoom -> libc
+
+    libOpenVG -> libcutils
+    libOpenVG -> libdl
+    libOpenVG -> libgsl
+    libOpenVG -> libc
+    libOpenVG -> libstdc__
+    libOpenVG -> libm
+
+    libOpenCL -> libCB
+    libOpenCL -> libc
+    libOpenCL -> libcrypto
+    libOpenCL -> libcutils
+    libOpenCL -> libdl
+    libOpenCL -> libgsl
+    libOpenCL -> libm
+    libOpenCL -> libstdc__
+    libOpenCL -> libstlport
+
+
+}
